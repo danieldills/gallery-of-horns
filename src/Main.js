@@ -1,12 +1,13 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
+import CardDeck from 'react-bootstrap/CardDeck';
 
 class Main extends React.Component {
     render() {
         return (
             <>
-                {
-                    this.props.beasts.map((thisBeast, index) => {
+                <CardDeck>
+                    {this.props.beasts.map((thisBeast, index) => {
                         return (
                             <div key={index}>
                                 <HornedBeast
@@ -16,8 +17,8 @@ class Main extends React.Component {
                                 />
                             </div>
                         )
-                    })
-                }
+                    })}
+                </CardDeck>
             </>
         )
     }
