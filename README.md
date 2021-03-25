@@ -2,11 +2,11 @@
 
 React application using React that will display images and information of horned animals. This application will allow you to filter the images by number of horns and choose your favorite image.
 ---
-Number and name of feature: Feature #1; Display Images
+Number and name of feature: Feature #1: Display Images
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 180 minutes
 
-Start time: _____
+Start time: 1300
 
 Finish time: _____
 
