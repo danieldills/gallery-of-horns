@@ -31,3 +31,13 @@ Start time: 1900
 Finish time: 2000
 
 Actual time needed to complete: 60 minutes
+---
+Number and name of feature: Passing Functions in Props
+
+Estimate of time needed to complete: 180 minutes
+
+Start time: 1245
+
+Finish time: 1700
+
+Actual time needed to complete: 255 minutes
