@@ -12,11 +12,12 @@ class HornedBeast extends React.Component {
 
     numOfClicks = () => {
         this.setState({ favoriteBeasts: this.state.favoriteBeasts + 1 });
+        this.props.showModal(this.props.index);
     }
 
     render() {
         return (
-            <div>
+            <>
                 <Card
                     style={{ width: '16rem' }}
                     onClick={this.numOfClicks}
@@ -32,7 +33,7 @@ class HornedBeast extends React.Component {
                         </Card.Text>
                     </Card.Body>
                 </Card>
-            </div>
+            </>
         )
     }
 }
