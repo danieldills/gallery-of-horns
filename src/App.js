@@ -5,7 +5,6 @@ import Main from './Main';
 import Footer from './Footer';
 import Data from './data.json';
 import SelectedBeasts from './SelectedBeast';
-import Form from './form';
 
 class App extends React.Component {
   constructor(props) {
@@ -20,7 +19,6 @@ class App extends React.Component {
   }
   
 showModal = (index) => {
-  // const selectedBeast = Data.find(beast => beast.fitle === name);
   this.setState({
     selectedBeast: Data[index], 
     displayModal: true
@@ -31,16 +29,18 @@ hideModal = () => {
   this.setState({displayModal: false})
 }
 
-
+filteredHorns = (beastData) => {
+  this.setState({beastData});
+}
 
   render() {
     return (
       <div>
         <Header /> 
-        <Form />
         <Main 
         showModal={this.showModal}
         beasts={this.state.beastData} 
+        filteredHorns={this.filteredHorns}
         />
 
         <SelectedBeasts 

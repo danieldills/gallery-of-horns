@@ -28,6 +28,7 @@ class HornedBeast extends React.Component {
                         <Card.Text>
                             {this.props.description}
                         </Card.Text>
+                        <Card.Text>Horns: {this.props.horns}</Card.Text>
                         <Card.Text>
                             💜 = {this.state.favoriteBeasts}
                         </Card.Text>
