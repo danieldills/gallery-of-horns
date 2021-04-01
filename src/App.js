@@ -12,7 +12,7 @@ class App extends React.Component {
 
     this.state = {
       beastData: Data,
-      hornFilteredData: Data,
+      // hornFilteredData: Data,
       displayModal: false,
       selectedBeast: {}
     }
