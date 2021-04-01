@@ -20,7 +20,7 @@ class App extends React.Component {
   
 showModal = (index) => {
   this.setState({
-    selectedBeast: Data[index], 
+    selectedBeast: this.state.beastData[index], 
     displayModal: true
   });
 }

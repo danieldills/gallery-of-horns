@@ -20,7 +20,7 @@ Start time: 1500
 
 Finish time: 1600
 
-Actual time needed to complete: _____
+Actual time needed to complete: 60 minutes
 ---
 Number and name of feature: Feature #3: Bootstrap
 
